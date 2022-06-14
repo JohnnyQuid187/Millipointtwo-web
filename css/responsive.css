@@ -1,0 +1,171 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1250px) { 
+	.container{
+		max-width: 1230px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1600px) { 
+	.about_area{
+		padding-top: 5rem;
+	}
+
+	.about_area h1{
+		font-size: 120px;
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+	header .logo img:nth-child(1){
+		display: none;
+	}
+
+	header .logo img:nth-child(2){
+		display: block;
+	}
+
+	#menu{
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+
+	.ofcavas-menu {
+		display: block;
+	}
+
+	.about_area h1{
+		font-size: 100px;
+	}
+
+	.collapse-for-smDevice{
+		display: block;
+	}
+
+	.gallery_area .box{
+		padding-top: 70px;
+	}
+
+	.gallery_area .box.a{
+		padding-top: 0;
+	}
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+
+	.mfp-content{
+		min-width: 80%;
+		vertical-align: sub;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.mfp-content img{
+		min-width: 100%;
+	}
+
+	.gallery-arrow {
+		top: auto;
+		bottom: 24px;
+	}
+
+	.gallery-arrow-left{
+		left: 24px;
+	}
+
+	.gallery-arrow-right{
+		margin-left: auto !important;
+		right: 24px;
+	}
+
+	.mfp-close-btn-in .mfp-close{
+		top: 10px;
+		right: 24px;
+	}
+
+	img.mfp-img{
+		padding: 0;
+	}
+
+	.manage_consent{
+		bottom: -27px;
+	}
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+	body{
+		font-size: 12px;
+	}
+
+	hr{
+		margin: 40px 0;
+	}
+
+	.about_area h1{
+		font-size: 65px;
+	}
+
+	.clique_area{
+		background: url(../img/clique-bg2.png) no-repeat center;
+		background-size: cover;
+	}
+
+	.gallery_area{
+		padding-bottom: 35px;
+	}
+
+	.gallery_area .box h1{
+		font-size: 100px;
+		line-height: 120%;
+	}
+
+	.gallery_area .box p{
+		font-size: 10px;
+		padding-bottom: 32px;
+	}
+
+	.mfp-content{
+		min-width: 100%;
+	}
+
+	footer .link li {
+		margin-right: 16px;
+	}
+
+	footer .link li:last-child{
+		margin-right: 0;
+	}
+
+	footer .link li a{
+		font-size: 12px;
+	}
+
+	.conditions_wrap h1{
+		font-size: 16px;
+	}
+
+	.conditions_wrap p{
+		font-size: 12px;
+	}
+	
+	.cookie_popup{
+		max-width: 100%;
+		left: 10px;
+	}
+
+	.popup_close{
+		width: 21px;
+	}
+}
+
+
